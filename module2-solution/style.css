@@ -1,0 +1,88 @@
+
+		*{
+			box-sizing: border-box;
+			font-family: "Comic Sans MS",cursive,sans-serif;
+		}
+		h1{
+			margin-bottom: 40px;
+			text-align: center;
+		}
+		p{
+			width: 90%;
+			height: 150px;
+			margin-top: 50px; 
+			margin-right: auto;
+			margin-left: auto;
+			color: white;
+		}
+		.row{
+			width: 100%;
+		}
+		@media (min-width: 992px){
+			.col-lg-1 {
+    				float: left;
+   					 border: 3px solid black;
+   					 margin-bottom: 30px;
+   					 margin-right: 1.66%;
+   					 margin-left: 1.66%;
+   					 position: relative;
+   					 background-color: grey;
+			  }
+			  .col-lg-1 {
+			    width: 30%;
+			  }
+		}
+		@media (min-width: 768px) and (max-width: 991px){
+			.col-md-1, .col-md-2{
+				    float: left;
+				    border: 3px solid black;
+				    margin-bottom: 30px;
+				    position: relative;
+				     background-color: grey;
+				  }
+				  .col-md-1 {
+				    width: 40%;
+				    margin-right: 5%;
+				    margin-left: 5%;
+				  }
+				  .col-md-2 {
+				    width: 90%;
+				    margin-left: 5%;
+				    margin-right: 5%;
+				  }
+		}
+		@media (max-width: 767px){
+				.col-sm-1{
+				    float: left;
+				    border: 3px solid black;
+				    margin-bottom: 30px;
+				    position: relative;
+				     background-color: grey;
+				  }
+				  .col-sm-1 {
+				    width: 100%; 
+				  }		  
+		}
+		.item{
+			border-left: 3px solid black;
+			border-bottom: 3px solid black;
+			font-size: 175%;
+			font-weight: bold;
+			text-align: center;
+			width: 30%;
+			height: 45px;
+			position: absolute;
+			left: 70%;
+		}
+		.sushi{
+			background-color: #FFE400;
+			color: black;
+		}
+		.beaf{
+			background-color: #FF2100;
+			color: white;
+		}
+		.rolls{
+			background-color: #FF8782;
+			color: black;
+		}
